@@ -1,0 +1,6 @@
+reactpy
+streamlit
+pydantic
+python-dotenv
+openai
+pytest

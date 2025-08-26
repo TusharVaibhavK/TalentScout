@@ -1,0 +1,33 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+
+# SQLite / JSON storage (simulated data, personalization)
+*.sqlite
+*.db
+data/*.json
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/

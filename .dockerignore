@@ -1,0 +1,41 @@
+# Ignore Git files
+.git
+.gitignore
+
+# Ignore Python cache & compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Ignore environment configs (we pass env vars in cloud instead)
+.env
+.env.local
+.env.*.local
+
+# Ignore logs
+logs/
+*.log
+
+# Ignore test files & coverage reports
+tests/
+.coverage
+.pytest_cache/
+
+# Ignore docs (not needed inside container)
+docs/
+
+# Ignore OS junk
+.DS_Store
+Thumbs.db
+
+# Ignore data storage (only for demo locally, not in container)
+data/
+*.sqlite
+*.db
